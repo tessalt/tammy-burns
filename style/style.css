@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'burst_my_bubbleregular';
+    src: url('burstmybubble-webfont.eot');
+    src: url('burstmybubble-webfont.eot?#iefix') format('embedded-opentype'),
+         url('burstmybubble-webfont.woff2') format('woff2'),
+         url('burstmybubble-webfont.woff') format('woff'),
+         url('burstmybubble-webfont.ttf') format('truetype'),
+         url('burstmybubble-webfont.svg#burst_my_bubbleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'burst_my_bubbleitalic';
+    src: url('burstmybubbleitalic-webfont.eot');
+    src: url('burstmybubbleitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('burstmybubbleitalic-webfont.woff2') format('woff2'),
+         url('burstmybubbleitalic-webfont.woff') format('woff'),
+         url('burstmybubbleitalic-webfont.ttf') format('truetype'),
+         url('burstmybubbleitalic-webfont.svg#burst_my_bubbleitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'burst_my_bubbleregular';
+  background: #95DEFF;
+}
+
+a {
+  color: #000;
+}
+
+#tammy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 60%;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.burn {
+  z-index: 10;
+  position: relative;
+}
+
+.burn h1 {
+  font-size: 34px;
+}
+
+button {
+  background: #FF62AF;
+  border: none;
+  font-family: inherit;
+  font-size: 24px;
+  padding: 16px 18px 12px 18px;
+  line-height: 1;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: #e95aa0;
+}
+
+.credits {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+
+  #tammy {
+    height: 100%;
+    max-width: 50%;
+  }
+
+  .burn {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+  }
+
+  .burn h1 {
+    font-size: 52px;
+  }
+
+  button {
+    font-size: 34px;
+  }
+}

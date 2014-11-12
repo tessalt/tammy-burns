@@ -7,11 +7,11 @@
       "Don't be such a tattle-tampon.",
       "This is such a snoregasm.",
       "That is literally the stupidest thing anyone has said in the history of mankind ever.",
-      "Don't be such a boob punch.",
+      "Don't be such a boob-punch.",
       "Your face looks like math class.",
       "Don't be such a prudeabega.",
-      "Later, square bear.",
-      "You lamepon."
+      "Later, square-bear.",
+      "You lame-pon."
     ],
     getBurn: function(index) {
       history.pushState(null, null, '#' + index);
