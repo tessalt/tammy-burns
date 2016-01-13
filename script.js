@@ -11,7 +11,9 @@
       "Your face looks like math class.",
       "Don't be such a prudeabega.",
       "Later, square-bear.",
-      "You lame-pon."
+      "You lame-pon.",
+      "You're like an unsalted pretzel.",
+      "You're such a goody two-boobs."
     ],
     getBurn: function(index) {
       history.pushState(null, null, '#' + index);
